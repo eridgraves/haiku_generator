@@ -1,15 +1,16 @@
 // Started 11/29/17
+// Finalized + Published 08/05/18
 // Eric Graves
 
 // syllable.cpp
-// Code to guess how many syllables are in a word
+// Estimate how many syllables are in a word. Tested using syl_test.cpp
 
 #include <string>
 #include <iostream>
 
 using namespace std;
-bool DEBUG = 1;
-bool DEBUG_VERBOSE = 1;
+bool DEBUG = 0;
+bool DEBUG_VERBOSE = 0;
 
 // Warning: no error checking
 bool isVowel(char c){
